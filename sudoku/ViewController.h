@@ -8,6 +8,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+-(void)genrateSudoku;
+-(void)fillEmptyGrid;
+-(BOOL)fileValue;
+-(NSMutableArray *)boxArray;
+-(NSMutableArray *)colArray;
+-(NSString *)getRandomCol;
+-(NSMutableArray *)board;
 
 
 @end
